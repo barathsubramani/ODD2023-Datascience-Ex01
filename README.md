@@ -20,7 +20,7 @@ Save the Clean data to the file
 
 # CODE
 ## Loan Data
-
+```
 import pandas as pd
 df=pd.read_csv("Loan_data.csv")
 print(df)
@@ -45,8 +45,89 @@ df.head()
 
 df.info()
 df.isnull().sum()
+```
+## Data_Set
+```
+import pandas as pd
+df=pd.read_csv("Data_set.csv")
+print(df)
 
+df.head(10)
+
+df.info()
+df.isnull()
+df.isnull().sum()
+
+df['show_name']=df['show_name'].fillna(df['aired_on'].mode()[0])
+df['aired_on']=df['aired_on'].fillna(df['aired_on'].mode()[0])
+df['original_network']=df['original_network'].fillna(df['aired_on'].mode()[0])
+df.head()
+
+df['rating']=df['rating'].fillna(df['rating'].mean())
+df['current_overall_rank']=df['current_overall_rank'].fillna(df['current_overall_rank'].mean())
+df.head()
+
+df['watchers']=df['watchers'].fillna(df['watchers'].median())
+df.head()
+
+df.info()
+
+df.isnull()
+df.isnull().sum()
+```
 ## OUTPUT
 ## For Loan Data
 ## Data
-![image]()
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/data.png")
+
+## Non Null Before
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info.png")
+
+## Mode
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mode.png")
+
+## Mean
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mean.png")
+
+## Median
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/median.png")
+
+## Non Null After
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info2.png")
+
+## isnull().sum()
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnull.png")
+
+## For Data_Set
+## Data
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/data.png")
+
+## Non Null Before
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info.png")
+
+## isnull()
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnull1.png")
+
+## isnull().sum()
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnulll.png")
+
+## Mode
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mode.png")
+
+## Mean
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mean.png")
+
+## Median
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/median.png")
+
+## Non Null After
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info2.png")
+
+## isnull()
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnull2.png")
+
+## isnull().sum()
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/sum.png")
+
+## RESULT
+Thus,the given data is read,cleansed and the cleaned data is saved into the file.
