@@ -78,56 +78,56 @@ df.isnull().sum()
 ## OUTPUT
 ## For Loan Data
 ## Data
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/data.png")
+![image](put1.png")
 
 ## Non Null Before
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info.png")
+![image]("put2.png")
 
 ## Mode
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mode.png")
+![image]("put3.png")
 
 ## Mean
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mean.png")
+![image]("put4.png")
 
 ## Median
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/median.png")
+![image]("put5.png")
 
 ## Non Null After
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info2.png")
+![image]("put6.png")
 
 ## isnull().sum()
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnull.png")
+![image]("put7.png")
 
 ## For Data_Set
 ## Data
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/data.png")
+![image]("out1.png")
 
 ## Non Null Before
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info.png")
+![image]("out2.png")
 
 ## isnull()
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnull1.png")
+![image]("out3.png")
 
 ## isnull().sum()
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnulll.png")
+![image]("out4.png")
 
 ## Mode
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mode.png")
+![image]("out5.png")
 
 ## Mean
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/mean.png")
+![image]("out6.png")
 
 ## Median
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/median.png")
+![image]("out7.png")
 
 ## Non Null After
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/info2.png")
+![image]("out8.png")
 
 ## isnull()
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/isnull2.png")
+![image]("out9.png")
 
 ## isnull().sum()
-![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/sum.png")
+![image]("out10.png")
 
 ## RESULT
 Thus,the given data is read,cleansed and the cleaned data is saved into the file.
