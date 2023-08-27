@@ -78,7 +78,11 @@ df.isnull().sum()
 ## OUTPUT
 ## For Loan Data
 ## Data
+<<<<<<< HEAD
 ![model](put1.png)
+=======
+![image]("https://github.com/barathsubramani/ODD2023-Datascience-Ex01/blob/main/put1.png")
+>>>>>>> 8db406a59190a7cc074096c76460bc22b076232e
 
 ## Non Null Before
 ![model](put2.png)
