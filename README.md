@@ -78,56 +78,56 @@ df.isnull().sum()
 ## OUTPUT
 ## For Loan Data
 ## Data
-![image](put1.png")
+![model](put1.png")
 
 ## Non Null Before
-![image]("put2.png")
+![model]("put2.png")
 
 ## Mode
-![image]("put3.png")
+![model]("put3.png")
 
 ## Mean
-![image]("put4.png")
+![model]("put4.png")
 
 ## Median
-![image]("put5.png")
+![model]("put5.png")
 
 ## Non Null After
-![image]("put6.png")
+![model]("put6.png")
 
 ## isnull().sum()
-![image]("put7.png")
+![model]("put7.png")
 
 ## For Data_Set
 ## Data
-![image]("out1.png")
+![model]("out1.png")
 
 ## Non Null Before
-![image]("out2.png")
+![model]("out2.png")
 
 ## isnull()
-![image]("out3.png")
+![model]("out3.png")
 
 ## isnull().sum()
-![image]("out4.png")
+![model]("out4.png")
 
 ## Mode
-![image]("out5.png")
+![model]("out5.png")
 
 ## Mean
-![image]("out6.png")
+![model]("out6.png")
 
 ## Median
-![image]("out7.png")
+![model]("out7.png")
 
 ## Non Null After
-![image]("out8.png")
+![model]("out8.png")
 
 ## isnull()
-![image]("out9.png")
+![model]("out9.png")
 
 ## isnull().sum()
-![image]("out10.png")
+![model]("out10.png")
 
 ## RESULT
 Thus,the given data is read,cleansed and the cleaned data is saved into the file.
